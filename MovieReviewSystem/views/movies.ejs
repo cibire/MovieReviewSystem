@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies List</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <h1>Movies List</h1>
+    <div class="movies">
+        <% posts.forEach(post => { %>
+            <div class="movie">
+                <a href="/movies/<%= post.title.replace(/ /g, '_') %>">
+                    <img src="<%= post.poster %>" alt="<%= post.title %>" />
+                    <h3><%= post.title %> (<%= post.year %>)</h3>
+                </a>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>

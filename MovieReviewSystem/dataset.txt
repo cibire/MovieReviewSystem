@@ -1,0 +1,72 @@
+
+{
+    title: "Indian 2",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_2_poster.jpg",
+    trailer: "https://www.youtube.com/embed/Vt4R3-zXksY?si=hSQtuVC71rku0DVW"
+},
+{
+    title: "Maharaja",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/8/82/Maharaja_2024_film_poster.jpg",
+    trailer: "https://www.youtube.com/embed/UsW95hX8GTQ?si=fqH4xW42zRuaoX1B"
+},
+{
+    title: "Garudan",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/8/8b/Garudan_2024_poster.jpg",
+    trailer: "https://www.youtube.com/embed/B2yC1jpAYvQ?si=ZfsIiUEjsFFzIxB3"
+},
+
+{
+    title: "Thug Life",
+    year: "2025",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/8/8b/Thug_Life_2025.jpg",
+    trailer: "https://www.youtube.com/embed/htcuIfJd5Jw?si=vglJ2IiINI-ZQdTz"
+},
+{
+    title: "Amaran",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/5/54/Amaran_2024_poster.jpg",
+    trailer: "https://www.youtube.com/watch?v=YkFaDqi2ueM"
+},
+{
+    title: "The Greatest of All Time",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Greatest_of_All_Time.jpg",
+    trailer: "https://www.youtube.com/embed/jxCRlebiebw?si=RK2edpZZY5PeO0pU"
+},
+{
+    title: "Good Bad Ugly",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/8/83/Good_Bad_Ugly_poster.jpg",
+    trailer : "https://www.youtube.com/embed/FxuDBodeEQY?si=TyiF2Z3izUz8XDSU"
+},
+{
+    title: "Kanguva",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/e/e8/Kanguva_poster.jpg",
+    trailer: "https://www.youtube.com/embed/ajnCMSC4VPo?si=l3BnsSFpOnHx8Ha0"
+},
+{
+    title: "Aavesham",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/d/d1/Aavesham.jpg",
+    trailer: "https://www.youtube.com/embed/OsMqr3556F8?si=IxMmlCwk1h4X9oCk"
+},
+{
+    title: "Guruvayoor Ambalanadayil",
+    year: "2024",
+    type: "movie",
+    poster: "https://upload.wikimedia.org/wikipedia/en/c/c8/Guruvayoor_Ambalanadayil.jpg",
+    trailer: "https://www.youtube.com/embed/IEm9X8yvivk?si=4FzkTqOABxiNwLqA"
+}

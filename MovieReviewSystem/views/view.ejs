@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= movie.title %> - Details</title>
+    <link rel="stylesheet" href="/view.css">
+</head>
+<body>
+    <h1><%= movie.title %> </h1>
+    <div class="movie-details">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %>" />
+        <div class="trailer">
+            <iframe width="560" height="315" 
+                src="<%= movie.trailer %>" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+<hr>
+    <h2>Comments</h2>
+    <ul>
+        <% comments.forEach(comment => { %>
+            <li><strong><%= comment.user %>:</strong> <%= comment.text %></li>
+        <% }) %>
+    </ul>
+
+    <form action="/movies/<%= movie.title.replace(/ /g, '_') %>/comments" method="POST">
+        <input type="text" name="user" placeholder="Your Name" required />
+        <textarea name="text" placeholder="Your Comment" required></textarea>
+        <button type="submit">Add Comment</button>
+    </form>
+
+    <a href="/movies">Back to Movies</a>
+</body>
+</html>
+
